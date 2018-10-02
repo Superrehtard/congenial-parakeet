@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C02CE44C21630A6D008FA04E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02CE44B21630A6D008FA04E /* AppDelegate.swift */; };
+		C02CE44E21630A6D008FA04E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02CE44D21630A6D008FA04E /* ViewController.swift */; };
+		C02CE45321630A6E008FA04E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02CE45221630A6E008FA04E /* Assets.xcassets */; };
+		C02CE45621630A6E008FA04E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02CE45421630A6E008FA04E /* LaunchScreen.storyboard */; };
+		C02CE46121630A6E008FA04E /* congenial_parakeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02CE46021630A6E008FA04E /* congenial_parakeetTests.swift */; };
+		C02CE46C21630A6E008FA04E /* congenial_parakeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02CE46B21630A6E008FA04E /* congenial_parakeetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C02CE45D21630A6E008FA04E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02CE44021630A6D008FA04E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02CE44721630A6D008FA04E;
+			remoteInfo = "congenial-parakeet";
+		};
+		C02CE46821630A6E008FA04E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02CE44021630A6D008FA04E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02CE44721630A6D008FA04E;
+			remoteInfo = "congenial-parakeet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C02CE44821630A6D008FA04E /* congenial-parakeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "congenial-parakeet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02CE44B21630A6D008FA04E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C02CE44D21630A6D008FA04E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C02CE45221630A6E008FA04E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C02CE45521630A6E008FA04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C02CE45721630A6E008FA04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02CE45C21630A6E008FA04E /* congenial-parakeetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "congenial-parakeetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02CE46021630A6E008FA04E /* congenial_parakeetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = congenial_parakeetTests.swift; sourceTree = "<group>"; };
+		C02CE46221630A6E008FA04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02CE46721630A6E008FA04E /* congenial-parakeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "congenial-parakeetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02CE46B21630A6E008FA04E /* congenial_parakeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = congenial_parakeetUITests.swift; sourceTree = "<group>"; };
+		C02CE46D21630A6E008FA04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C02CE44521630A6D008FA04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02CE45921630A6E008FA04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02CE46421630A6E008FA04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C02CE43F21630A6D008FA04E = {
+			isa = PBXGroup;
+			children = (
+				C02CE44A21630A6D008FA04E /* congenial-parakeet */,
+				C02CE45F21630A6E008FA04E /* congenial-parakeetTests */,
+				C02CE46A21630A6E008FA04E /* congenial-parakeetUITests */,
+				C02CE44921630A6D008FA04E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C02CE44921630A6D008FA04E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C02CE44821630A6D008FA04E /* congenial-parakeet.app */,
+				C02CE45C21630A6E008FA04E /* congenial-parakeetTests.xctest */,
+				C02CE46721630A6E008FA04E /* congenial-parakeetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C02CE44A21630A6D008FA04E /* congenial-parakeet */ = {
+			isa = PBXGroup;
+			children = (
+				C02CE44B21630A6D008FA04E /* AppDelegate.swift */,
+				C02CE44D21630A6D008FA04E /* ViewController.swift */,
+				C02CE45221630A6E008FA04E /* Assets.xcassets */,
+				C02CE45421630A6E008FA04E /* LaunchScreen.storyboard */,
+				C02CE45721630A6E008FA04E /* Info.plist */,
+			);
+			path = "congenial-parakeet";
+			sourceTree = "<group>";
+		};
+		C02CE45F21630A6E008FA04E /* congenial-parakeetTests */ = {
+			isa = PBXGroup;
+			children = (
+				C02CE46021630A6E008FA04E /* congenial_parakeetTests.swift */,
+				C02CE46221630A6E008FA04E /* Info.plist */,
+			);
+			path = "congenial-parakeetTests";
+			sourceTree = "<group>";
+		};
+		C02CE46A21630A6E008FA04E /* congenial-parakeetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C02CE46B21630A6E008FA04E /* congenial_parakeetUITests.swift */,
+				C02CE46D21630A6E008FA04E /* Info.plist */,
+			);
+			path = "congenial-parakeetUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C02CE44721630A6D008FA04E /* congenial-parakeet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02CE47021630A6E008FA04E /* Build configuration list for PBXNativeTarget "congenial-parakeet" */;
+			buildPhases = (
+				C02CE44421630A6D008FA04E /* Sources */,
+				C02CE44521630A6D008FA04E /* Frameworks */,
+				C02CE44621630A6D008FA04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "congenial-parakeet";
+			productName = "congenial-parakeet";
+			productReference = C02CE44821630A6D008FA04E /* congenial-parakeet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C02CE45B21630A6E008FA04E /* congenial-parakeetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02CE47321630A6E008FA04E /* Build configuration list for PBXNativeTarget "congenial-parakeetTests" */;
+			buildPhases = (
+				C02CE45821630A6E008FA04E /* Sources */,
+				C02CE45921630A6E008FA04E /* Frameworks */,
+				C02CE45A21630A6E008FA04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02CE45E21630A6E008FA04E /* PBXTargetDependency */,
+			);
+			name = "congenial-parakeetTests";
+			productName = "congenial-parakeetTests";
+			productReference = C02CE45C21630A6E008FA04E /* congenial-parakeetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C02CE46621630A6E008FA04E /* congenial-parakeetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02CE47621630A6E008FA04E /* Build configuration list for PBXNativeTarget "congenial-parakeetUITests" */;
+			buildPhases = (
+				C02CE46321630A6E008FA04E /* Sources */,
+				C02CE46421630A6E008FA04E /* Frameworks */,
+				C02CE46521630A6E008FA04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02CE46921630A6E008FA04E /* PBXTargetDependency */,
+			);
+			name = "congenial-parakeetUITests";
+			productName = "congenial-parakeetUITests";
+			productReference = C02CE46721630A6E008FA04E /* congenial-parakeetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C02CE44021630A6D008FA04E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Pruthvi Parne";
+				TargetAttributes = {
+					C02CE44721630A6D008FA04E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					C02CE45B21630A6E008FA04E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C02CE44721630A6D008FA04E;
+					};
+					C02CE46621630A6E008FA04E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C02CE44721630A6D008FA04E;
+					};
+				};
+			};
+			buildConfigurationList = C02CE44321630A6D008FA04E /* Build configuration list for PBXProject "congenial-parakeet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C02CE43F21630A6D008FA04E;
+			productRefGroup = C02CE44921630A6D008FA04E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C02CE44721630A6D008FA04E /* congenial-parakeet */,
+				C02CE45B21630A6E008FA04E /* congenial-parakeetTests */,
+				C02CE46621630A6E008FA04E /* congenial-parakeetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C02CE44621630A6D008FA04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02CE45621630A6E008FA04E /* LaunchScreen.storyboard in Resources */,
+				C02CE45321630A6E008FA04E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02CE45A21630A6E008FA04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02CE46521630A6E008FA04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C02CE44421630A6D008FA04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02CE44E21630A6D008FA04E /* ViewController.swift in Sources */,
+				C02CE44C21630A6D008FA04E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02CE45821630A6E008FA04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02CE46121630A6E008FA04E /* congenial_parakeetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02CE46321630A6E008FA04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02CE46C21630A6E008FA04E /* congenial_parakeetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C02CE45E21630A6E008FA04E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02CE44721630A6D008FA04E /* congenial-parakeet */;
+			targetProxy = C02CE45D21630A6E008FA04E /* PBXContainerItemProxy */;
+		};
+		C02CE46921630A6E008FA04E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02CE44721630A6D008FA04E /* congenial-parakeet */;
+			targetProxy = C02CE46821630A6E008FA04E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C02CE45421630A6E008FA04E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C02CE45521630A6E008FA04E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C02CE46E21630A6E008FA04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C02CE46F21630A6E008FA04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C02CE47121630A6E008FA04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CVN555NPJB;
+				INFOPLIST_FILE = "congenial-parakeet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ninja.Inc.congenial-parakeet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C02CE47221630A6E008FA04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CVN555NPJB;
+				INFOPLIST_FILE = "congenial-parakeet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ninja.Inc.congenial-parakeet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C02CE47421630A6E008FA04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CVN555NPJB;
+				INFOPLIST_FILE = "congenial-parakeetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ninja.Inc.congenial-parakeetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/congenial-parakeet.app/congenial-parakeet";
+			};
+			name = Debug;
+		};
+		C02CE47521630A6E008FA04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CVN555NPJB;
+				INFOPLIST_FILE = "congenial-parakeetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ninja.Inc.congenial-parakeetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/congenial-parakeet.app/congenial-parakeet";
+			};
+			name = Release;
+		};
+		C02CE47721630A6E008FA04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CVN555NPJB;
+				INFOPLIST_FILE = "congenial-parakeetUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ninja.Inc.congenial-parakeetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "congenial-parakeet";
+			};
+			name = Debug;
+		};
+		C02CE47821630A6E008FA04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CVN555NPJB;
+				INFOPLIST_FILE = "congenial-parakeetUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ninja.Inc.congenial-parakeetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "congenial-parakeet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C02CE44321630A6D008FA04E /* Build configuration list for PBXProject "congenial-parakeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02CE46E21630A6E008FA04E /* Debug */,
+				C02CE46F21630A6E008FA04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02CE47021630A6E008FA04E /* Build configuration list for PBXNativeTarget "congenial-parakeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02CE47121630A6E008FA04E /* Debug */,
+				C02CE47221630A6E008FA04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02CE47321630A6E008FA04E /* Build configuration list for PBXNativeTarget "congenial-parakeetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02CE47421630A6E008FA04E /* Debug */,
+				C02CE47521630A6E008FA04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02CE47621630A6E008FA04E /* Build configuration list for PBXNativeTarget "congenial-parakeetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02CE47721630A6E008FA04E /* Debug */,
+				C02CE47821630A6E008FA04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C02CE44021630A6D008FA04E /* Project object */;
+}
